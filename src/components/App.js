@@ -4,6 +4,8 @@ import Header from './header/Header.js';
 import './App.css';
 import Hello from './hello/Hello.js';
 import Length from './length/Length.js';
+import DecimalToBinary from './decimal_to_binary/DecimalToBinary.js';
+import DecimalToHex from './decimal_to_hex/DecimalToHex.js';
 
 class App extends React.Component {
   render() {
@@ -12,6 +14,10 @@ class App extends React.Component {
     <Header />
     <Hello />
     <Length />
+    <hr />
+    <DecimalToBinary />
+    <hr />
+    <DecimalToHex />
     </div>
   );
 }
